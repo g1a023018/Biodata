@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        td, th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Profil Mahasiswa Teknik Informatika</h1>
+    
+    <div style="border: 1px solid black; color: rgb(74, 72, 72); padding: 20px; 
+    margin: 20px 0; border-radius: 8px; text-align: justify;">
+        <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+            <img src="file:///C:/Users/user/Documents/PWB/Biodata/i.jpg" 
+                 alt="Foto Mahasiswa" 
+                 width="200px" 
+                 height="200px" 
+                 style="object-fit: cover; border-radius: 50%;">
+        </div>
+        <h2>Data Pribadi</h2>
+        <table>
+            <tr><th>Nama Lengkap</th><td>Herlita</td></tr>
+            <tr><th>Nama Panggilan</th><td>Lita</td></tr>
+            <tr><th>NPM</th><td>G1A023018</td></tr>
+            <tr><th>Program Studi</th><td>Informatika</td></tr>
+            <tr><th>Angkatan</th><td>2023</td></tr>
+        </table>
+
+        <h2>Informasi Akademik</h2>
+        <table>
+            <tr><th>IPK</th><td>3.50</td></tr>
+            <tr><th>SKS Ditempuh</th><td>66</td></tr>
+            <tr><th>Semester</th><td>4</td></tr>
+        </table>
+
+        <h2>Kontak</h2>
+        <ul>
+            <li><a href="mailto:hlita7636@gmail.com">Email</a></li>
+            <li><a href="tel:+6283124596441">Telepon</a></li>
+            <li><a href="#Jl Putri Gading Cempaka No.27, Penurunan, Ratu Samban, Bengkulu, Bengkulu">Alamat</a></li>
+        </ul>
+
+        <h2>Prestasi</h2>
+        <ol>
+            <li>Menjadi anak yang baik</li>
+            <li>Menjadi Teman Yang Baik</li>
+            <li>Menjadi Mahasiswa yang seharusnya</li>
+        </ol>
+
+        <h2>Form Kontak</h2>
+        <form>
+            <p>Kirim pesan untuk Lita:</p>
+            <label for="sender-name">Nama Pengirim:</label>
+            <input type="text" id="sender-name" name="sender-name" required><br>
+            
+            <label for="sender-email">Email Pengirim:</label>
+            <input type="email" id="sender-email" name="sender-email" required><br>
+            
+            <label for="message">Pesan:</label><br>
+            <textarea id="message" name="message" rows="4" style="width: 100%"></textarea><br>
+            
+            <button type="submit" style="margin-top: 10px">Kirim Pesan</button>
+        </form>
+    </div>
+</body>
+</html>
